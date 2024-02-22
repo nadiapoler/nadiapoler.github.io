@@ -2,15 +2,17 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #d4ebff48;
+    color: #1A4B73;
 }
 
 :root {
-    --main-color: #16b93a;
+    --main-color: #1B2F40;
 }
 
-header, section, footer {
+header,
+section,
+footer {
     margin: 20px auto;
     width: 80%;
     max-width: 960px;
@@ -33,7 +35,7 @@ section {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 }
 
@@ -45,7 +47,7 @@ footer {
 }
 
 #idiomas {
-    background-color: #f4f4f4;
+    background-color: #1b2f401e;
     padding: 20px;
 }
 
@@ -56,26 +58,26 @@ footer {
     gap: 20px;
 }
 
-.language {
+article {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 180px;
     text-align: center;
 }
 
-.language span {
+article span {
     font-size: 50px;
     margin-bottom: 10px;
 }
 
 
 #informatica {
-    background-color: #f4f4f4;
+    background-color: #1b2f401e;
     padding: 20px;
 }
 
@@ -86,25 +88,25 @@ footer {
     gap: 20px;
 }
 
-.skill {
+article {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 180px;
     text-align: center;
 }
 
-.skill span {
+article span {
     font-size: 50px;
     margin-bottom: 10px;
 }
 
 #experiencia {
-    background-color: #f4f4f4;
+    background-color: #1b2f401e;
     padding: 20px;
 }
 
@@ -115,25 +117,26 @@ footer {
     gap: 20px;
 }
 
-.job {
+article {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    width: 250px; /* Ajusta según necesidad */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    /* Ajusta según necesidad */
     text-align: center;
 }
 
-.job span {
+article span {
     font-size: 50px;
     margin-bottom: 10px;
 }
 
 #formacion-reglada {
-    background-color: #f4f4f4;
+    background-color: #1b2f401e;
     padding: 20px;
 }
 
@@ -144,48 +147,34 @@ footer {
     gap: 20px;
 }
 
-.degree {
+article {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #fff;
+    background-color: #fffffff5;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    width: 250px; /* Ajuste según necesidad */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    /* Ajuste según necesidad */
     text-align: center;
 }
 
-.degree span {
+article span {
     font-size: 50px;
     margin-bottom: 10px;
 }
 
-#formacion-complementaria {
-    background-color: #f4f4f4;
-    padding: 20px;
+footer a {
+    color: #fff;
+    text-decoration: none;
 }
 
-.courses-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 20px;
+footer a:hover {
+    color: #d4ebff;
 }
 
-.course {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    width: 250px; /* Ajuste según necesidad */
-    text-align: center;
+span > img  {
+    width: 90px;
 }
 
-.course span {
-    font-size: 50px;
-    margin-bottom: 10px;
-}
