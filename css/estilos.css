@@ -1,11 +1,16 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #d4ebff48;
     color: #1A4B73;
 }
 
+/* 
+    Define una variable que se usa para poner un color principal 
+    en algunos elementos del documento sin tener que ir cambiando 
+    uno a uno
+*/
 :root {
     --main-color: #1B2F40;
 }
@@ -67,8 +72,14 @@ article {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 250px; /* Ancho fijo */
-    margin-bottom: 20px; /* Espacio entre cada artículo */
+    width: 250px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+
+}
+
+article:hover {
+    transform: scale(1.05);
 }
 
 article span {
@@ -125,3 +136,20 @@ span > img  {
     width: 65px;
 }
 
+a > img {
+    width: 15px;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+section {
+    animation: fadeIn 1s ease;
+}
